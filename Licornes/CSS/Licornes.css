@@ -1,0 +1,155 @@
+*{
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+#author{
+    display: none;
+}
+
+body{
+    background-image: url("../IMG/background.png");
+}
+
+header{
+    background-color: #C55394 ;
+    display: block;
+    padding: 5px;
+    color: #FFF;
+}
+
+header > h2 {
+    margin-left: 5px;
+}
+
+h1, h2, h3{
+    font-family: 'Courgette', cursive;
+}
+
+#conteneur > h2 , h3{
+    color: #EB43A3;
+    padding: 20px 0px;
+}
+
+#menu{
+    float:right;
+    margin-top: -25px;
+}
+
+a{
+    color: #FFF;
+    text-decoration: unset;
+    padding: 5px;
+    margin-right: 5px;
+    font-size: small;
+}
+
+a:hover , button:hover {
+    background-color: #EB43A3;
+}
+
+#titre{
+    width: 50%;
+    margin: auto;
+    display: flex;
+    padding: 50px;
+    background-image: url("../IMG/rainbow.png");
+    background-size: cover;
+}
+
+h1{
+    color: #C55394;
+    margin: auto;
+}
+
+#conteneur{
+    width: 80%;
+    padding: 20px;
+    padding-top: 30px;
+    border: grey 2px ridge;
+    border-radius: 15px;
+    margin: auto;
+    background-color: #FFF;
+    margin-bottom: 40px;
+}
+
+#img{
+    display: flex;
+    margin: auto;
+    flex-wrap: wrap;
+}
+
+figure{
+    position: relative;
+    margin: 8px auto;
+    overflow: hidden;
+}
+
+img{
+    width: 100%;
+    margin-bottom: -4px;
+}
+
+img:hover{
+    transition: all 1s;
+    transform: scale(1.5);
+}
+
+figcaption{
+    position: absolute;
+    width: 100%;
+    bottom: 0px;
+    color: #FFF;
+    background-color: rgba(34, 34, 34, 0.8);
+    text-align: center;
+    padding: 5px;
+}
+
+#find{
+    display: flex;
+}
+
+iframe{
+    border: #222 1px solid;
+    width: 60%;
+}
+
+#adresse{
+    width: 30% ;
+    font-size: smaller;
+    margin: -24px 0px 15px 35px;
+    padding-bottom: 30px;
+}
+
+#conteneur > p {
+    font-size: small;
+}
+
+h3{
+    font-size: small;
+}
+
+input{
+    width: 70%;
+    margin: 10px 0px;
+    padding: 5px;
+}
+
+button{
+    display: block;
+    background-color: #C55394;
+    color: #FFF;
+    padding: 5px 10px;
+    font-size: smaller;
+    border: 0;
+    border-radius: 3px;
+}
+
+footer{
+    background-color: #C55394 ;
+    color: #FFF;
+    text-align: right;
+    padding: 10px;
+}
